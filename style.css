@@ -1,0 +1,53 @@
+body{
+    background-image: url(black.jpg);
+    background-size: cover;
+}
+
+.container{
+    
+    width:300px;
+    height: 350px;
+   margin-left: 500px;
+   margin-top: 100px;
+   border-radius: 45px;
+   
+   border-radius: 20px;
+    background-color: rgba(39, 39, 43, 0.1);
+   box-shadow: 0 0 15px rgb(65, 65, 66);
+    
+}
+.header{
+      
+      align-items: center;
+     padding-top: 20px;
+     padding-left: 100px;
+     color: white;
+}
+.loginpage {
+padding: 10px;
+
+
+}
+input,button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 45px;
+}
+.container button{
+    width:150px;
+    height: 40px;
+    padding-left: 0;
+    margin-right: 30px;
+    
+
+}
+.loginpage div{
+    margin-right: 0 auto;
+    margin-left: 40px;
+}
+input:focus{
+    background-color: rgb(229, 233, 236);
+}
+button:hover{
+    background-color: antiquewhite;
+}
